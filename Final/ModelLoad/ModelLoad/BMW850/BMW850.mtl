@@ -1,0 +1,462 @@
+newmtl Pottery_clay0
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay0.jpg
+newmtl Dark_smoked_gla0
+Ka 0 0 0
+Ns 34.4669
+Ks 1 1 1
+Kd 0.498039 0.498039 0.498039
+map_Kd Dark_smoked_gla0_1.jpg
+newmtl Pottery_clay1
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay1_2.jpg
+newmtl Dark_smoked_gla1
+Ka 0 0 0
+Ns 34.4669
+Ks 1 1 1
+Kd 0.498039 0.498039 0.498039
+map_Kd Dark_smoked_gla1_3.jpg
+newmtl Metallic_Varni0
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni0_4.jpg
+newmtl Body0
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body0_5.jpg
+newmtl Pottery_clay2
+Ka 0 0 0
+Ns 2.31637
+Ks 0.945098 0.607843 0.152941
+Kd 0.6 0.22353 0.0901961
+map_Kd Pottery_clay2_6.jpg
+newmtl 850matri0
+Ka 0 0 0
+Ns 11.0232
+Ks 1 1 1
+Kd 0.389705 0.44066 0.500973
+map_Kd 850matri0_7.jpg
+newmtl 850matri1
+Ka 0 0 0
+Ns 11.0232
+Ks 1 1 1
+Kd 0.389705 0.44066 0.500973
+map_Kd 850matri1_8.jpg
+newmtl Pottery_clay3
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay3_9.jpg
+newmtl Pottery_clay4
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay4_10.jpg
+newmtl Chrome0
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome0_11.jpg
+newmtl Body1
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body1_12.jpg
+newmtl Body2
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body2_13.jpg
+newmtl Chrome1
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome1_14.jpg
+newmtl Body3
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body3_15.jpg
+newmtl 850anag0
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 0.428726 0.451386 0.473739
+map_Kd 850anag0_16.jpg
+newmtl 850anag1
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 0.428726 0.451386 0.473739
+map_Kd 850anag1_17.jpg
+newmtl Chrome2
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome2_18.jpg
+newmtl Dark_smoked_gla2
+Ka 0 0 0
+Ns 34.4669
+Ks 1 1 1
+Kd 0.498039 0.498039 0.498039
+map_Kd Dark_smoked_gla2_19.jpg
+newmtl Dark_smoked_gla3
+Ka 0 0 0
+Ns 34.4669
+Ks 1 1 1
+Kd 0.498039 0.498039 0.498039
+map_Kd Dark_smoked_gla3_20.jpg
+newmtl Pottery_clay5
+Ka 0 0 0
+Ns 2.31637
+Ks 0.945098 0.607843 0.152941
+Kd 0.6 0.22353 0.0901961
+map_Kd Pottery_clay5_21.jpg
+newmtl 850anag2
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 0.428726 0.451386 0.473739
+map_Kd 850anag2_22.jpg
+newmtl 850anag3
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 0.428726 0.451386 0.473739
+map_Kd 850anag3_23.jpg
+newmtl Metallic_Varni1
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0
+map_Kd Metallic_Varni1_24.jpg
+newmtl Body4
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body4_25.jpg
+newmtl Chrome3
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome3_26.jpg
+newmtl Metallic_Varni2
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni2_27.jpg
+newmtl Metallic_Varni3
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni3_28.jpg
+newmtl Pottery_clay6
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay6_29.jpg
+newmtl Pottery_clay7
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay7_30.jpg
+newmtl Pottery_clay8
+Ka 0 0 0
+Ns 2.31637
+Ks 0.945098 0.607843 0.152941
+Kd 0.6 0.22353 0.0901961
+map_Kd Pottery_clay8_31.jpg
+newmtl 850panel
+Ka 0 0 0
+Ns 174.164
+Ks 1 1 1
+Kd 0.268441 0.221179 0.168639
+map_Kd 850panel_32.jpg
+newmtl Pottery_clay9
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay9_33.jpg
+newmtl Pottery_clay10
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay10_34.jpg
+newmtl Aluminium0
+Ka 0 0 0
+Ns 1.82212
+Ks 1 1 1
+Kd 0.647059 0.647059 0.647059
+map_Kd Aluminium0_35.jpg
+newmtl Metallic_Varni4
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni4_36.jpg
+newmtl Chrome4
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome4_37.jpg
+newmtl Chrome5
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome5_38.jpg
+newmtl Pottery_clay11
+Ka 0 0 0
+Ns 2.31637
+Ks 0.945098 0.607843 0.152941
+Kd 0.6 0.22353 0.0901961
+map_Kd Pottery_clay11_39.jpg
+newmtl Pottery_clay12
+Ka 0 0 0
+Ns 2.31637
+Ks 0.945098 0.607843 0.152941
+Kd 0.6 0.22353 0.0901961
+map_Kd Pottery_clay12_40.jpg
+newmtl Metallic_Varni5
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0
+map_Kd Metallic_Varni5_41.jpg
+newmtl 850anag4
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 0.428726 0.451386 0.473739
+map_Kd 850anag4_42.jpg
+newmtl 850anag5
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 0.428726 0.451386 0.473739
+map_Kd 850anag5_43.jpg
+newmtl Aluminium1
+Ka 0 0 0
+Ns 1.82212
+Ks 1 1 1
+Kd 0.647059 0.647059 0.647059
+map_Kd Aluminium1_44.jpg
+newmtl Body5
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body5_45.jpg
+newmtl Body6
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body6_46.jpg
+newmtl Body7
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body7_47.jpg
+newmtl initialShadingGr
+Ka 0 0 0
+Ns 8.16617
+Ks 0.772549 0.772549 0.772549
+Kd 0.00392157 0.00392157 0.00392157
+map_Kd initialShadingGr_48.jpg
+newmtl 850faroN
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 1 0.345098 0
+map_Kd 850faroN_49.jpg
+newmtl Dark_smoked_gla4
+Ka 0 0 0
+Ns 34.4669
+Ks 1 1 1
+Kd 0.498039 0.498039 0.498039
+map_Kd Dark_smoked_gla4_50.jpg
+newmtl Chrome6
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome6_51.jpg
+newmtl Pottery_clay13
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay13_52.jpg
+newmtl Body8
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body8_53.jpg
+newmtl Metallic_Varni6
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni6_54.jpg
+newmtl Body9
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body9_55.jpg
+newmtl Body10
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body10_56.jpg
+newmtl Pottery_clay14
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay14_57.jpg
+newmtl Chrome7
+Ka 0 0 0
+Ns 114.434
+Ks 1 1 1
+Kd 0.681949 0.720702 0.73147
+map_Kd Chrome7_58.jpg
+newmtl Metallic_Varni7
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni7_59.jpg
+newmtl Metallic_Varni8
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni8_60.jpg
+newmtl Metallic_Varni9
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni9_61.jpg
+newmtl Metallic_Varni10
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni10_62.jpg
+newmtl Metallic_Varni11
+Ka 0 0 0
+Ns 6.04965
+Ks 0.733333 0.92549 1
+Kd 0 0 0.0784314
+map_Kd Metallic_Varni11_63.jpg
+newmtl Body11
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body11_64.jpg
+newmtl Pottery_clay15
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay15_65.jpg
+newmtl Pottery_clay16
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay16_66.jpg
+newmtl Pottery_clay17
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay17_67.jpg
+newmtl Aluminium2
+Ka 0 0 0
+Ns 1.82212
+Ks 1 1 1
+Kd 0.647059 0.647059 0.647059
+map_Kd Aluminium2_68.jpg
+newmtl Pottery_clay18
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay18_69.jpg
+newmtl Aluminium3
+Ka 0 0 0
+Ns 1.82212
+Ks 1 1 1
+Kd 0.647059 0.647059 0.647059
+map_Kd Aluminium3_70.jpg
+newmtl Pottery_clay19
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay19_71.jpg
+newmtl Aluminium4
+Ka 0 0 0
+Ns 1.82212
+Ks 1 1 1
+Kd 0.647059 0.647059 0.647059
+map_Kd Aluminium4_72.jpg
+newmtl Body12
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body12_73.jpg
+newmtl Pottery_clay20
+Ka 0 0 0
+Ns 2.31637
+Ks 0.129412 0.129412 0.129412
+Kd 0.027451 0.027451 0.027451
+map_Kd Pottery_clay20_74.jpg
+newmtl Body13
+Ka 0 0 0
+Ns 2.31637
+Ks 0.792157 0 0.0235294
+Kd 0.296296 0.0143919 0
+map_Kd Body13_75.jpg
+newmtl 850faroN1
+Ka 0 0 0
+Ns 403.429
+Ks 1 1 1
+Kd 1 0.345098 0
+map_Kd 850faroN1_76.jpg

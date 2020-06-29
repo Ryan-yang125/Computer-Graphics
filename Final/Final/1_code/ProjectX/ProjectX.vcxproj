@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4002F870-132B-4C52-B3E8-3D2CD2231DDD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ModernDalfred</RootNamespace>
+    <ProjectName>ProjectX</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/lib/freeglut/include;$(SolutionDir)/lib/glm;$(SolutionDir)/lib/glew/include;$(SolutionDir)/lib/sfml/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)/lib/freeglut/lib/x86;$(SolutionDir)/lib/glew/lib;$(SolutionDir)/lib/sfml/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;freeglut.lib;sfml-graphics-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/lib/freeglut/include;$(SolutionDir)/lib/glm;$(SolutionDir)/lib/glew/include;$(SolutionDir)/lib/sfml/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)/lib/freeglut/lib/x86;$(SolutionDir)/lib/glew/lib;$(SolutionDir)/lib/sfml/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>glew32.lib;freeglut.lib;sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
+    <ClCompile Include="Fireplace.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MatrixStack.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="ParticleData.cpp" />
+    <ClCompile Include="ParticleEmitter.cpp" />
+    <ClCompile Include="ParticleFire.cpp" />
+    <ClCompile Include="ParticleFountain.cpp" />
+    <ClCompile Include="ParticleShader.cpp" />
+    <ClCompile Include="Square.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Stool.cpp" />
+    <ClCompile Include="Table.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="Torus.cpp" />
+    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Vase.cpp" />
+    <ClCompile Include="VertexData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="Cylinder.h" />
+    <ClInclude Include="Fireplace.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="MatrixStack.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="ParticleData.h" />
+    <ClInclude Include="ParticleEmitter.h" />
+    <ClInclude Include="ParticleFire.h" />
+    <ClInclude Include="ParticleFountain.h" />
+    <ClInclude Include="ParticleShader.h" />
+    <ClInclude Include="Square.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Stool.h" />
+    <ClInclude Include="Table.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="Torus.h" />
+    <ClInclude Include="Utils.h" />
+    <ClInclude Include="Vase.h" />
+    <ClInclude Include="VertexData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flat.frag" />
+    <None Include="flat.vert" />
+    <None Include="fountain.frag" />
+    <None Include="fountain.vert" />
+    <None Include="gouraud.frag" />
+    <None Include="gouraud.vert" />
+    <None Include="ModelLoading.frag" />
+    <None Include="ModelLoading.vert" />
+    <None Include="NOTES.md" />
+    <None Include="phong.frag" />
+    <None Include="phong.vert" />
+    <None Include="SOURCES.md" />
+    <None Include="texture.frag" />
+    <None Include="texture.vert" />
+    <None Include="wavy.frag" />
+    <None Include="wavy.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="brick.png" />
+    <Image Include="fire.png" />
+    <Image Include="logo_sprite.png" />
+    <Image Include="monet.bmp" />
+    <Image Include="starrynight.png" />
+    <Image Include="water_droplet.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

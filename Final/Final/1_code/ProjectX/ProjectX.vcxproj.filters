@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Models">
+      <UniqueIdentifier>{f22c564b-2aa7-4352-8e49-c9d490a5a215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{2f03390d-bbc1-4ad2-b000-4e2f428353c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Models">
+      <UniqueIdentifier>{c8d5ab8b-f191-4011-b52f-4a4bfd027083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{3ea4bd27-3a79-4c15-960f-6330a017ce6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MatrixStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Stool.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Vase.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleFountain.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEmitter.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleFire.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Fireplace.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Torus.cpp">
+      <Filter>Source Files\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MatrixStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Stool.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Vase.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleFountain.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEmitter.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleFire.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Fireplace.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Header Files\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Torus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SOURCES.md">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="NOTES.md">
+      <Filter>Docs</Filter>
+    </None>
+    <None Include="fountain.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fountain.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="flat.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="flat.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="gouraud.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="gouraud.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="phong.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="phong.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="wavy.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="wavy.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texture.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="texture.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ModelLoading.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ModelLoading.vert">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="brick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fire.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="logo_sprite.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="monet.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="starrynight.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="water_droplet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
